@@ -33,7 +33,7 @@ public class ThirdPersonMovement : MonoBehaviour
     }
     else
     {
-        // Apply gravity to the vertical velocity balls
+        // Apply gravity to the vertical velocity
         verticalVelocity += gravity * Time.deltaTime;
     }
 
